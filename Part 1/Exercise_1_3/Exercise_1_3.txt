@@ -1,0 +1,22 @@
+e...:~$ docker run -d -it --name ex13 devopsdockeruh/simple-web-service:ubuntu
+30b2678ef818f30ab7bf7ef76415152d88215ea6b83af13800efc1f495945def
+e...:~$ docker exec ex13 ls -la
+total 9856
+drwxr-xr-x. 1 root root       16 May 21 15:12 .
+drwxr-xr-x. 1 root root        6 Mar 14  2021 ..
+-rwxr-xr-x. 1 root root 10085718 Mar 14  2021 server
+-rw-r--r--. 1 root root      325 May 21 15:13 text.log
+e...:~$ docker exec -it ex13 bash
+root@30b2678ef818:/usr/src/app# ls
+server  text.log
+root@30b2678ef818:/usr/src/app# tail -f ./text.log
+2024-05-21 15:13:47 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-21 15:13:49 +0000 UTC
+2024-05-21 15:13:51 +0000 UTC
+2024-05-21 15:13:53 +0000 UTC
+2024-05-21 15:13:55 +0000 UTC
+2024-05-21 15:13:57 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+^C
+root@30b2678ef818:/usr/src/app#

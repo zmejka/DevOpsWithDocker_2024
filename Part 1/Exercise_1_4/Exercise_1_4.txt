@@ -1,0 +1,11 @@
+First terminal:
+e...:~$ docker run -it ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+Input website:
+helsinki.fi
+
+Second terminal:
+e...:~$ docker ps
+e...:~$ docker exec -it 88 bash
+root@8813af449bbb:/# apt-get update
+root@8813af449bbb:/# apt-get -y install curl
+root@8813af449bbb:/#

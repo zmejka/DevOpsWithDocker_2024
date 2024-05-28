@@ -1,0 +1,19 @@
+e...:~$ docker pull devopsdockeruh/simple-web-service:ubuntu
+e...:~$ docker pull devopsdockeruh/simple-web-service:alpine
+
+e...:~$ docker image ls
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago   15.7MB
+
+e...:~$ docker run -d -it --name ex15 devopsdockeruh/simple-web-service:alpine
+e...:~$ docker exec -it ex15 sh
+/usr/src/app # ls
+server    text.log
+/usr/src/app # tail -f text.log
+2024-05-22 14:46:24 +0000 UTC
+2024-05-22 14:46:26 +0000 UTC
+2024-05-22 14:46:28 +0000 UTC
+2024-05-22 14:46:30 +0000 UTC
+2024-05-22 14:46:32 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
