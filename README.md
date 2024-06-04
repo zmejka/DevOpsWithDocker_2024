@@ -35,3 +35,29 @@ Exercise 14: [Backend Dockerfile](https://github.com/zmejka/DevOpsWithDocker_202
 
 Exercise 15: [Text file](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%201/Exercise_1_15/exercise_1_15.txt)
 
+## Part 2:
+
+Exercise 1: [docker-compose](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_1/docker-compose.yml)
+
+Exercise 2: [docker-compose](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_2/docker-compose.yml)
+
+Exercise 3: [docker-compose](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_3/docker-compose.yml)
+
+Exercise 4: [docker-compose](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_4/docker-compose.yml)
+
+Exercise 5: [Text file](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_5/exercise_2_5.txt)
+
+Exercise 6: [docker-compose](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_6/docker-compose.yml)
+
+Exercise 7: [docker-compose](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_7/docker-compose.yml)
+
+Exercise 8: [docker-compose](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_8/docker-compose.yml),
+[conf file](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_8/nginx.conf)
+
+Exercise 9: [docker-compose](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_9/docker-compose.yml),
+[conf file](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_9/nginx.conf)
+
+Exercise 10: [Text file](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_10/Exercise_2_10.txt),
+[docker-compose](https://github.com/zmejka/DevOpsWithDocker_2024/blob/main/Part%202/Exercise_2_10/docker-compose.yml),
+[Exercise 10](https://github.com/zmejka/DevOpsWithDocker_2024/tree/main/Part%202/Exercise_2_10)
+
